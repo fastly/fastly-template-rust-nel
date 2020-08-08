@@ -1,3 +1,4 @@
+//! Compute@Edge starter kit for Network Error Logging
 use fastly::error::anyhow;
 use fastly::geo::{geo_lookup, Continent};
 use fastly::{uap_parse, Error};

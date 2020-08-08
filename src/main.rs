@@ -1,4 +1,4 @@
-//! # Network Error Logging
+//! Compute@Edge starter kit for Network Error Logging
 //!
 //! A Compute@Edge service which exposes a HTTP reporting endpoint for the
 //! W3C [Network Error Logging API][specification].
@@ -11,12 +11,12 @@ use fastly::{downstream_client_ip_addr, Body, Error, Request, Response, Response
 use serde::{Deserialize, Serialize};
 use std::io::Write;
 
-// Import the report data structures.
-mod report;
-use report::Report;
-
+// Import the `Report` and `ClientData` data structures.
 mod client_data;
-use client_data::ClientData;
+mod report;
+
+use crate::client_data::ClientData;
+use crate::report::Report;
 
 /// Main application entrypoint.
 ///
