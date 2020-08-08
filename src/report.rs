@@ -1,3 +1,4 @@
+//! Compute@Edge starter kit for Network Error Logging
 use serde::{Deserialize, Serialize};
 
 /// `Report` models a Network Error Log report.
