@@ -1,0 +1,5 @@
+version = 1
+name = "Compute@Edge starter kit for Network Error Logging"
+description = "Capture Network Error Logging (NEL) reports from the browser, format them and forward the data to your preferred logging provider"
+authors = ["Patrick Hamann <patrick@fastly.com>"]
+language = "rust"
