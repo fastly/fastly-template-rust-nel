@@ -1,8 +1,8 @@
-# Compute@Edge starter kit for Network Error Logging
+# Fastly Compute starter kit for Network Error Logging
 
-A Rust based Compute@Edge starter kit for a [Network Error Logging](https://w3c.github.io/network-error-logging/) reporting endpoint.
+A Rust based compute starter kit for a [Network Error Logging](https://w3c.github.io/network-error-logging/) reporting endpoint.
 
-**For more details about this and other starter kits for Compute@Edge, see the [Fastly developer hub](https://developer.fastly.com/solutions/starters)**
+**For more details about this and other starter kits for Fastly Compute, see the [Fastly developer hub](https://developer.fastly.com/solutions/starters)**
 
 ## What is network error logging?
 
