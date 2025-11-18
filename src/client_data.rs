@@ -1,7 +1,8 @@
 //! Compute@Edge starter kit for Network Error Logging
 use fastly::error::anyhow;
 use fastly::geo::{geo_lookup, Continent};
-use fastly::{uap_parse, Error};
+use fastly::Error;
+use fastly::experimental::uap_parse;
 use serde::{Deserialize, Serialize};
 use std::fmt;
 use std::net::IpAddr;

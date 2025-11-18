@@ -1,5 +1,11 @@
-version = 1
-name = "Compute@Edge starter kit for Network Error Logging"
-description = "Capture Network Error Logging (NEL) reports from the browser, format them and forward the data to your preferred logging provider"
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
 authors = ["Patrick Hamann <patrick@fastly.com>"]
+description = "Capture Network Error Logging (NEL) reports from the browser, format them and forward the data to your preferred logging provider"
 language = "rust"
+manifest_version = 3
+name = "Compute@Edge starter kit for Network Error Logging"
+service_id = ""
+
+[local_server]
